@@ -17,4 +17,4 @@
 [Bilibili](https://space.bilibili.com/555591493) <br>
 [个人网站](https://www.wanqiu.tk) <br>
 
-### 本程序目前为测试版
+### 本程序目前为测试版，部分谱子的延时可能出现问题
