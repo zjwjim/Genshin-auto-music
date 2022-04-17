@@ -1,6 +1,5 @@
 #include <Windows.h>
 #include <iostream>
-#include <cstdio>
 using namespace std;
 
 int main() 
@@ -10,23 +9,23 @@ int main()
     char character;
     char file[1000];
 
-	cout<<"ÇëÊäÈëÎÄ¼þÃû£º";
+	cout<<"è¯·è¾“å…¥æ–‡ä»¶åï¼š";
 	cin>>file; 
-    cout<<"ÇëÊäÈëÑÓÊ±£º";
+    cout<<"è¯·è¾“å…¥å»¶æ—¶ï¼š";
     cin>>time;
 
     FILE *fp = fopen(file, "r");
     
-//	µ¹¼ÆÊ±5Ãë
+//	å€’è®¡æ—¶5ç§’
 	for(int k=5;k>=0;k--)  
 	{
-		cout<<k<<"Ãëºó¿ªÊ¼ÔËÐÐ"<<endl;
+		cout<<k<<"ç§’åŽå¼€å§‹è¿è¡Œ"<<endl;
 		Sleep(1000);
 		system("cls");
 	}
-	cout<<"ÔËÐÐÖÐ..."<<endl;
+	cout<<"è¿è¡Œä¸­..."<<endl;
 
-//	¿ªÊ¼ÑÝ×à 
+//	å¼€å§‹æ¼”å¥ 
 	while(!feof(fp))
 	{
 		character=fgetc(fp);
@@ -45,7 +44,7 @@ int main()
 		}	
 	}
 	system("cls"); 
-	cout<<"½áÊø£¡"<<endl;
+	cout<<"ç»“æŸï¼"<<endl;
 	system("pause");
 	return 0;
 }
